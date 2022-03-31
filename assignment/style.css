@@ -1,6 +1,6 @@
 /* Give your page a fun background color */
 body {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.596);
 }
 /* Make the header and footer a different color from the background */
 head {
@@ -17,8 +17,17 @@ p {
     color:blueviolet;
 }
 .rounded {
-    border-radius: 50%;
+    border-radius : 30%;
+    padding: 1px;
+    border: 8px solid transparent;
+
     
+}
+header {
+    color:green;
+}
+ul {
+    font-family: Georgia, serif;
 }
 /* Align the h1 containing your name in the center of the header*/
 
